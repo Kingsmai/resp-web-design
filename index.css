@@ -50,14 +50,30 @@ h2 {
     background: #468486;
 }
 
+/* ====================================
+SECTION
+==================================== */
 section {
     padding: 40px 0;
     text-align: center;
 }
 
+/* ====================================
+FEATURES
+==================================== */
 .features {
     background: #FFFFFF;
     color: #000000;
+}
+
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.feature img {
+    width: 40%;
 }
 
 .quote {
