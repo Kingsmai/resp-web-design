@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #373737;
+}
+
+/*
+max-width: 500px; 意味着它将
+从0像素到500像素开始
+*/
+@media screen and (max-width: 500px) {
+    body {
+        background-color: teal;
+    }
+}
+
+/*
+min-width: 600px; 意味着它将
+从600像素开始，直到更高，除非设置了某个断点
+*/
+@media screen and (min-width: 600px) {
+    body {
+        background-color: crimson;
+    }
+}
+
+
+/*
+min-width: 700px 和 max-width: 900px
+意味着它将从700像素开始，当屏幕尺寸超过900像素时停止
+*/
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    body {
+        background-color: tomato;
+    }
+}
+
+/* 注意 */
+
+/* 调整屏幕大小以查看变化 */
+
+/*
+如果您的屏幕尺寸保持在501到599之间，它将显示黑色背景颜色。实际上不是黑色，而是十六进制码为#373737。
+请看body样式的顶部。默认的背景颜色是#373737。
+所以总结一下，当您的屏幕尺寸为0到500时，它将显示蓝绿色背景颜色，当保持在501到599之间时，它将显示黑色背景颜色。
+当您的屏幕尺寸为600像素时，它将显示深红色背景颜色。当您的屏幕尺寸为700到900时，它将显示番茄色背景颜色。
+当屏幕尺寸超过900像素时，它将再次显示深红色背景颜色。
+*/
+
+/*
+如果我有任何错误，请告诉我。
+照顾好自己，也照顾好您的灵魂。
+*/
